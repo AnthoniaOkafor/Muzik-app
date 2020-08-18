@@ -4,8 +4,8 @@ import "./Navigation.css";
 import { NavLink } from "react-router-dom";
 
 const items = [
-  { name: "Home", url: "/home" },
-  { name: "Organise", url: "/organise" },
+  { name: "Home", url: "/" },
+  { name: "Organise", url: "/event" },
   { name: "How it works", url: "/howitworks" },
   { name: "Sign in", url: "./signin" }
 ];
